@@ -74,13 +74,13 @@
                                   Update
                             </button>
                         </div>
-
+                    </form>
                         <form action="{{route('album-admin.destroy',$album->id)}}" method="post" >
                             @csrf @method('delete')
                             <button type="submit" class="btn btn-danger" style="margin-left:70%;">Delete Album</button>
                     </form>
 
-                    </form>
+                   
                 </div>
             </div>
         </div>
